@@ -1,5 +1,6 @@
 // tailwind.config.js
 const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   theme: {
@@ -17,7 +18,8 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      Triforce: ['TriSymbol', 'serif'],
+      Overwatch: ['"Typodermic - VipnagorgiallaRg-BoldItalic"']
     },
     extend: {
       spacing: {
@@ -27,6 +29,19 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       }
-    }
+    },
+    aspectRatio: {
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      9: '22rem',
+      16: '44rem',
+    },
+    plugins: [
+      
+      require('@tailwindcss/aspect-ratio'),
+      require('@tailwindcss/typography')
+    ]
   }
 }
