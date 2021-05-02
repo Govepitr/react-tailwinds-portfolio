@@ -1,10 +1,11 @@
 import React from 'react';
-import About from './components/About';
-import Footer from './components/Footer';
-import Header from './components/Header';
 import Nav from './components/Nav';
+import Header from './components/Header';
+import About from './components/About';
 import Project from './components/Project';
+import Footer from './components/Footer';
 import './App.css';
+
 
 function App() {
   return (
