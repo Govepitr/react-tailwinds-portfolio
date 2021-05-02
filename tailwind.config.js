@@ -4,9 +4,10 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   theme: {
     screens: {
-      SmallPhone: '501px',
-      LargePhone: '786px',
-      AverageTablet: '976px'
+      xl: '1280px',
+      lg: '976px',
+      md: '786px',
+      sm: '501px',
     },
     colors: {
       gray: colors.coolGray,
