@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Transition } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 
 function Nav() {
   return (
@@ -22,7 +22,7 @@ function Nav() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        className={`${active && "bg-gradient-to-r from-white via-green-400 to-blue-500"}`} href="https://github.com/Govepitr">GitHub</a>
+                        className={`${ active && "bg-gradient-to-r from-white via-green-400 to-blue-500"}`} href="https://github.com/Govepitr">GitHub</a>
                     )}
                   </Menu.Item>
                   <Menu.Item>
