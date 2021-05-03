@@ -21,17 +21,10 @@ function Nav() {
                 <Menu.Button>Links</Menu.Button>
                 <Menu.Items>
                   <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        className={`${active && "bg-gradient-to-r from-white via-green-400 to-blue-500"}`} href="https://github.com/Govepitr" target="_blank" rel="noreferrer">GitHub</a>
-                    )}
+                      <a className="" href="https://github.com/Govepitr" target="_blank" rel="noreferrer">GitHub</a>
                   </Menu.Item>
                   <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        className={`${active && "bg-gradient-to-r from-white via-gray-500 to green-500"}`}
-                        href="https://www.linkedin.com/in/dan-arbelo/" target="_blank" rel="noreferrer">LinkedIn</a>
-                    )}
+                    <a className="" href="https://www.linkedin.com/in/dan-arbelo/" target="_blank" rel="noreferrer">LinkedIn</a>                    
                   </Menu.Item>
                 </Menu.Items>
               </Menu>
