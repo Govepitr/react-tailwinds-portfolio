@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
-import Footer from './components/Footer';
+import ContactForm from './components/Footer';
 import './App.css';
 
 
@@ -15,7 +15,7 @@ function App() {
         <Header></Header>
         <About></About>
         <Project></Project>
-        <Footer></Footer>
+        <ContactForm></ContactForm>
       </main>
     </div>
   );

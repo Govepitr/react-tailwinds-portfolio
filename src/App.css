@@ -41,8 +41,8 @@
 @font-face {
   font-family: "Triforce";
   src: url("../src/assets/fonts/TriSymbol.ttf") format("ttf");
-  font-family: "Overwatch";
-  src: url("../src/assets/fonts/Typodermic\ -\ VipnagorgiallaRg-BoldItalic.otf") format("otf");
+  font-family: "Vipnagorgialla";
+  src: url("../src/assets/fonts/Typodermic.otf") format("otf");
 }
 
 
@@ -64,16 +64,18 @@ body {
 
 
 .rest-of-word {
-  color: rgb(132, 183, 204);
-  font-family: fantasy;
+  color: rgb(33, 72, 27);
+  font-family: 'fantasy';
   font-size: 35px;
+  font-style: normal;
 }
 
 .navbar-brand {
-  color: rgb(169, 169, 189) !important;
+  color: rgb(12,12,52) !important;
   text-shadow: 5px 5px 4px rgb(31, 56, 71);
-  font-family: "Lobster";
+  font-family: 'Triforce';
   font-size: 45px;
+  font-style: italic;
 }
 
 .navbar-brand {
@@ -123,17 +125,22 @@ body {
     100% {color: #3ca2a2;}
   }
 
-  h2 {
+  #aboutMe {
     font-size: 2em;
-    font-family: 'Overwatch';
+    font-family: 'Vipnagorgialla'!important;
     font-weight: 700;
     letter-spacing: 1.4px;
   }
-
+h2 {
+  font-size: 2em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
 #topContainer {
   max-width: 1280px;
   margin: 0 auto;
-  background-color: unset;
+  background-color: black;
 }
   
 
@@ -144,6 +151,7 @@ body {
 
 
 .hero-image {
+  filter: invert(100%);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -152,23 +160,23 @@ body {
   height:inherit;
   animation: reveal 5s ease-in-out 3s alternate infinite;
   animation-fill-mode: backwards;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(22, 56, 129, 0.5), rgba(22, 56, 129, 0.5)),
     url("../src/assets/images/Victory_1.svg");
 }
 
 @keyframes reveal {
   from {
-    background-color: black;
+    background-color: rgba(46, 211, 161, 0.342);
   }
   to {
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
+      rgba(22, 56, 129, 0.5),
       url("../src/assets/images/Victory_1.svg")
     );
   }
 }
 
-.heroic {
+#heroic {
   text-align: end;
   color: floralwhite;
   text-shadow: 5px 5px 4px rgb(118, 150, 163);
@@ -336,12 +344,16 @@ span#dan{
 }
 
 
-.email {
+#contact-form {
   font-size: 28px!important;
   font-family: 'Triforce'!important;
   color: #006400!important;
   display:inline-block;
   position:relative;
+}
+h1 #contact-form {
+  position:unset;
+  display: unset;
 }
 .email:hover {
   text-decoration:none;
