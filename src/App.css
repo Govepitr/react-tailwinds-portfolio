@@ -113,12 +113,12 @@ body {
   @-webkit-keyframes github {
     0% {color: white;} 
     50% {color: #333333;}
-    100% {color: #3CA2A2;}
+    100% {color: rgb(60, 162, 162);}
   }
   @-webkit-keyframes linkedin {
     0% {color: white;}
-    50% {color: #4875B4;}
-    100% {color: #3CA2A2;}
+    50% {color: rgb(71, 116, 179);}
+    100% {color: #3ca2a2;}
   }
 
   h1 {

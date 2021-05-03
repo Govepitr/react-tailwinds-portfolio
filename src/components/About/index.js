@@ -4,17 +4,17 @@ import MeUnder from '../../assets/images/mesmol.jpg';
 
 function About() {
   return (
-    <section id="about-me" class=" marker mt-5" data-color="165, 155, 145">
-      <figure class="justify-content-center" id="biopic">
-        <div class="text-center">
+    <section id="about-me" className=" marker mt-5" data-color="165, 155, 145">
+      <figure className="justify-content-center" id="biopic">
+        <div className="text-center">
           <h2 id="aboutMe">About Me</h2>
-          <img src={MeUnder} class="bottom rounded" alt="Bio Pic" />
-          <img src={MeAbove} class="top rounded" alt="Bio Pic" />
+          <img src={MeUnder} className="bottom rounded" alt="Bio Pic" />
+          <img src={MeAbove} className="top rounded" alt="Bio Pic" />
         </div>
       </figure>
-      <div class="text-end marker mt-5" data-color="110, 178, 159">
+      <div className="text-end marker mt-5" data-color="110, 178, 159">
         <p>
-          Hi! My name is <span class="email" id="dan">Dan Arbelo</span>. I am a Full-Stack Web developer. One of the things I have realized in so many professional environments is that "less is more".
+          Hi! My name is <span className="email" id="dan">Dan Arbelo</span>. I am a Full-Stack Web developer. One of the things I have realized in so many professional environments is that "less is more".
           That is something that is even more consistent in coding. Whether it's simple HTML/CSS, JavaScript, Handlebars.js, and even within the MERN stack itself!
           One of the things I have always prided myself on is not only taking the time to fully understand what tools I have to work with, but more importantly what is the most efficient way to
           apply them!<br/>
