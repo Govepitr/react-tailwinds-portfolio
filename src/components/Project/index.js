@@ -22,7 +22,7 @@ function Project() {
           </div>
           <div className="carousel-item" id="flash-card">
             <span target="_blank" href="https://flash-card-buddy.herokuapp.com/">
-              <img alt="FCB" src={FCB.gif} />
+              <img alt="FCB" src={FCB} />
             </span>
           </div>
           <div className="carousel-item" id="horiseon">
