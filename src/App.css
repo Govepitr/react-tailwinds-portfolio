@@ -41,6 +41,8 @@
 @font-face {
   font-family: "Triforce";
   src: url("../src/assets/fonts/TriSymbol.ttf") format("ttf");
+  font-family: "Overwatch";
+  src: url("../src/assets/fonts/Typodermic\ -\ VipnagorgiallaRg-BoldItalic.otf") format("otf");
 }
 
 
@@ -121,9 +123,9 @@ body {
     100% {color: #3ca2a2;}
   }
 
-  h1 {
+  h2 {
     font-size: 2em;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Overwatch';
     font-weight: 700;
     letter-spacing: 1.4px;
   }
@@ -201,8 +203,10 @@ body {
   transition: opacity 2s ease-in-out !important;
 }
 .top.rounded {
+  position: 2rem !important;
   position: absolute !important;
   right: 24.5%!important;
+  top: 2.313rem!important;
 }
 
 #biopic img.top:hover {
@@ -220,8 +224,10 @@ body {
 }
 
 span#dan{
-  font-family: 'Triforce';
+  font-family: 'Triforce'!important;
+  font-size: 28px!important;
   font-weight:500!important;
+  color:darkgreen!important;
 }
 /* Work */
 
