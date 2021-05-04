@@ -1,6 +1,6 @@
 // tailwind.config.js
 const colors = require('tailwindcss/colors')
-const plugin = require('tailwindcss/plugin');
+// const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   theme: {
